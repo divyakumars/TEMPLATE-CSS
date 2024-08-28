@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    color: maroon;
+    
+}
+.head{
+    display: inline-block;
+    padding: 30px;
+    width: 80%;
+    font-style: italic;
+}
+.nav{
+    display:inline ;
+    text-align: right;
+    width: 88%;
+}
+.na{
+    display:inline;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color:darkred;
+    font-size: 20px;      
+}
+.img img{
+    width: 60%;
+    float: right;
+    padding-top: 20px;
+}
+.home{
+    font-size: 25px;
+    width: 40%;
+    align-items: center;
+    padding: 90px;
+    
+    
+}
+.h{
+    width:90%;
+    float: left;
+    padding-left: 10px;
+    margin-top: 5%;
+}
+#search{
+    width: 150%;
+   
+    margin-top: 10px;
+    padding: 15px;
+}
+#search-button{
+    padding: 15px;
+    background-color: brown;
+    color:white;
+    margin-top: 60px;
+    cursor:pointer;
+    font-size: 20px;
+    transition: 0.4s ease ;
+}
+#search-button:hover{
+    font-size: 30px;
+    background-color: black;
+
+}
+
+.main{
+    clear: both;
+    padding: 20px 100px ;
+    
+}
+.main h2{
+    color:darkred;
+    font-style: italic;
+    font-size:30px;
+    font-weight: bold;
+}
+.main h3{
+    font-style: oblique;
+}
+
+
+.contact {
+    text-align: center;
+    margin-top: 30px;
+    padding: 40px 20px;
+    background-color: gray;
+    
+}
+
+.contact form {
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.contact input, .contact select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid ;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: white;
+   
+    cursor: pointer;
+}
+.box{
+    display: inline-block;
+    width: 100%;
+    margin-top:40px ;
+    height: 270px;
+    text-align: center;
+}
+.box img{
+    width: 30%;
+    padding: 0 10px;
+
+}
+.text{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding-left: 7%;
+
+    
+}
+.text h2{
+    display: inline-block;
+    width: 30%;
+
+
+
+    
+    
+}
+
+.tx{
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    padding-left: 88px;
+    
+}
+.tx p{
+    display: inline-block;
+    width: 30%;
+    margin-left: 20px;
+
+
+}
+.tx div{
+    display: inline-block;
+    width: 30%;
+    margin-left: 20px;
+
+    
+}
+.tx h3{
+    background-color: maroon;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+    transition: 0.4s ease;
+
+}
+.tx h3:hover{
+    font-size: 30px;
+
+}
